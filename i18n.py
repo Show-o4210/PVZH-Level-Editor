@@ -565,7 +565,7 @@ def remove_language_listener(callback: Callable[[str], None]) -> None:
         _listeners.remove(callback)
 
 
-def t(key: str, **kwargs: Any) -> str:
+def t(key: str, /, **kwargs: Any) -> str:
     """取当前语言文案；缺失时回退中文，再回退 key 本身。"""
     entry = STRINGS.get(key)
     if not entry:
