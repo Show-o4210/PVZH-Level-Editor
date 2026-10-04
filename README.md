@@ -1,3 +1,7 @@
+> [!IMPORTANT]
+> 本项目已迁入 **[PVZH-Library / tools/level-editor](https://github.com/Show-o4210/PVZH-Library/tree/main/tools/level-editor)**，后续源码、文档与问题反馈统一在 [PVZH-Library](https://github.com/Show-o4210/PVZH-Library) 维护。
+> 本仓库保留原始历史，供旧链接与版本追溯使用。迁移详情见 [MIGRATION.md](https://github.com/Show-o4210/PVZH-Library/blob/main/MIGRATION.md)。
+
 # PVZH 关卡自定义工具
 
 面向《植物大战僵尸英雄》(PVZH) 的关卡编辑器。支持可视化配置关卡参数、人机/玩家、战场分路、游戏事件，并与 Unity AssetBundle（`data_assets_*`）互相同步。
